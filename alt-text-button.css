@@ -39,24 +39,24 @@ figure details:has(summary:focus) {
         outline: yellow;
     }
 }
-figure details:open p, figure details:open summary {
+figure details[open] p, figure details[open] summary {
     border-radius: var(--border-radius);
     border: 1px solid #ccc;
     padding: 0.25rem 0.5rem;
     color: black;
 }
-figure details:open p {
+figure details[open] p {
     background-color: white;
     margin: 0;
 }
-figure details:open summary {
+figure details[open] summary {
     width: max-content;
     margin-bottom: 0.25rem;
     list-style: none;
     color: black;
     background-color: white;
 }
-figure details:open {
+figure details[open] {
     border: none;
     background-color: transparent !important;
     padding: 0;
