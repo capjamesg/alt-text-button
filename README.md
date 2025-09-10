@@ -15,9 +15,7 @@ Then, use the following structure for your images:
     </picture>
     <details class="alt" aria-label="Show or hide the alt text for the image">
         <summary>ALT</summary>
-        <div class="content">
-            A supermarket in Berlin with a sign that reads "freshly made smiles".
-        </div>
+        <p>A supermarket in Berlin with a sign that reads "freshly made smiles".</p>
     </details>
 </figure>
 ```
