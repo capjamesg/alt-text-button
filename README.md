@@ -2,6 +2,10 @@
 
 Template for a button you can add to images on your website to visibly show/hide alt text.
 
+## Demo
+
+https://github.com/user-attachments/assets/670a5b19-0a72-4f80-96db-7870ec32a8c8
+
 ## How to Use
 
 First, download the `alt-text-button.css` file and include it in your site HTML.
