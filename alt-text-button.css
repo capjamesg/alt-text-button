@@ -39,14 +39,15 @@ figure details:has(summary:focus) {
         outline: yellow;
     }
 }
-figure details:open .content, figure details:open summary {
+figure details:open p, figure details:open summary {
     border-radius: var(--border-radius);
     border: 1px solid #ccc;
     padding: 0.25rem 0.5rem;
     color: black;
 }
-figure details:open .content {
+figure details:open p {
     background-color: white;
+    margin: 0;
 }
 figure details:open summary {
     width: max-content;
